@@ -66,8 +66,8 @@ class _MyHomePageState extends State<MyHomePage> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        _buildDot(Colors.yellow),
-        _buildDot(Colors.yellow),
+        _buildDot(),
+        _buildDot(),
       ],
     );
   }
@@ -76,10 +76,10 @@ class _MyHomePageState extends State<MyHomePage> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        _buildDot(Colors.yellow),
+        _buildDot(),
         _buildEmpty(),
         _buildEmpty(),
-        _buildDot(Colors.yellow),
+        _buildDot(),
       ],
     );
   }
@@ -88,9 +88,9 @@ class _MyHomePageState extends State<MyHomePage> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        _buildDot(Colors.yellow),
-        _buildDot(Colors.yellow),
-        _buildDot(Colors.yellow),
+        _buildDot(),
+        _buildDot(),
+        _buildDot(),
         _buildEmpty()
       ],
     );
@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
         _buildEmpty(),
         _buildEmpty(),
         _buildEmpty(),
-        _buildDot(Colors.yellow),
+        _buildDot(),
       ],
     );
   }
@@ -114,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
       children: [
         _buildEmpty(),
         _buildEmpty(),
-        _buildDot(Colors.yellow),
+        _buildDot(),
         _buildEmpty(),
       ],
     );
@@ -125,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         _buildEmpty(),
-        _buildDot(Colors.yellow),
+        _buildDot(),
         _buildEmpty(),
         _buildEmpty(),
       ],
@@ -136,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        _buildDot(Colors.yellow),
+        _buildDot(),
         _buildEmpty(),
         _buildEmpty(),
         _buildEmpty(),
@@ -148,15 +148,15 @@ class _MyHomePageState extends State<MyHomePage> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        _buildDot(Colors.yellow),
-        _buildDot(Colors.yellow),
-        _buildDot(Colors.yellow),
-        _buildDot(Colors.yellow),
+        _buildDot(),
+        _buildDot(),
+        _buildDot(),
+        _buildDot(),
       ],
     );
   }
 
-  Widget _buildDot(Color color) {
+  Widget _buildDot() {
     return Container(
       width: _size,
       height: _size,
